@@ -7,8 +7,24 @@
         <servlet-name>ServletJKReg</servlet-name>
         <servlet-class>major.jaikisaan.services.ServletJKReg</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>major.jaikisaan.services.ServletLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletDataEntryHandler</servlet-name>
+        <servlet-class>major.jaikisaan.services.ServletDataEntryHandler</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletJKReg</servlet-name>
         <url-pattern>jaikisaan.services.ServletJKReg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletLogin</servlet-name>
+        <url-pattern>jaikisaan.services.ServletLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletDataEntryHandler</servlet-name>
+        <url-pattern>jaikisaan.services.ServletDataEntryHandler</url-pattern>
     </servlet-mapping>
 </web-app>

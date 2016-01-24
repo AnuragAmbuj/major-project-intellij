@@ -30,7 +30,18 @@
 <br><br>
 <div align="center">
 <div align="center" style="width: 60%;align-items: center;align-content: center">
-    <form id="loginpage" name="loginpage" action="login.jsp" method="post">
+    <%
+        Object status=request.getAttribute("status");
+        if(status==null)
+        {
+
+        }
+        else
+            out.println("<h3 style='color:red'>"+status.toString()+"</h3>");
+
+    %>
+    <form id="loginpage" name="loginpage" action="jaikisaan.services.ServletLogin
+    " method="post">
         <table>
             <tr>
                 <td>

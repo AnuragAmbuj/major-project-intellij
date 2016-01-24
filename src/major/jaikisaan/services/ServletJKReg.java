@@ -29,8 +29,17 @@ public class ServletJKReg extends HttpServlet {
         String date = request.getParameter("date");
         String location = request.getParameter("slist");
         System.out.println(email);
-        if (firstname.trim().equals("") || lastname.trim().equals("") || email.trim().equals("") || password.trim().equals("") || confirmpass.trim().equals("") || cropselector.trim().equals("none") || date.trim().equals("") || location.trim().equals(""))
+        String statusmessage=new String();
+        if (firstname.trim().equals("") || lastname.trim().equals("") || email.trim().equals("") || password.trim().equals("") || confirmpass.trim().equals("") || cropselector.trim().equals("none") || date.trim().equals("") || location.trim().equals("none"))
+        {
             flag = false;
+            statusmessage="Fields are empty";
+        }
+        if(!password.equals(confirmpass))
+        {
+            flag=false;
+            statusmessage="Passwords do not match";
+        }
         if (flag == true) {
             Random random = new Random();
             long genRandomKey = Math.abs(random.nextLong());
@@ -38,21 +47,21 @@ public class ServletJKReg extends HttpServlet {
             entity.setProperty("UserID", genRandomKey);
             entity.setProperty("firstname", firstname);
             entity.setProperty("lastname", lastname);
+            entity.setProperty("email",email);
             entity.setProperty("password", password);
-            entity.setProperty("confirmpass", confirmpass);
             entity.setProperty("cropselector", cropselector);
             entity.setProperty("date", date);
             entity.setProperty("location", location);
             DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
             datastoreService.put(entity);
         } else {
-            request.setAttribute("status", "Fields are empty!");
+            request.setAttribute("status", statusmessage);
             RequestDispatcher dispatcher=getServletConfig().getServletContext().getRequestDispatcher("/register.jsp");
             dispatcher.forward(request,response);
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+                //response.sendRedirect("login.jsp");
     }
 }
