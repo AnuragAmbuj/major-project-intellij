@@ -1,8 +1,10 @@
 package major.appengine.connector;
 
+import com.google.api.server.spi.config.Nullable;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.Key;
 
 /**
  * Created by Anurag Ambuj on 1/23/2016.
@@ -13,10 +15,11 @@ public class AppEngineConnector {
     {
         return datastoreService;
     }
-    public static Entity createEntity(String kind)
+    public static Entity createEntity(String kind, String keyTomatino)
     {
-        Entity entity =new Entity(kind);
-        return entity;
+
+       Entity entity=new Entity(kind,keyTomatino);
+       return entity;
     }
     public static void writeProperty(Entity entity,String property,String value)
     {
@@ -30,4 +33,11 @@ public class AppEngineConnector {
     {
         //TODO
     }
+    public static boolean connectionCreator()
+    {
+        //TODO
+        return true;
+    }
+
+
 }

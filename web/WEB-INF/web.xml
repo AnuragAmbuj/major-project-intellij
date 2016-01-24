@@ -3,4 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <servlet>
+        <servlet-name>ServletJKReg</servlet-name>
+        <servlet-class>major.jaikisaan.services.ServletJKReg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletJKReg</servlet-name>
+        <url-pattern>jaikisaan.services.ServletJKReg</url-pattern>
+    </servlet-mapping>
 </web-app>

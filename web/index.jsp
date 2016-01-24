@@ -5,6 +5,11 @@
 <%@ page import="com.google.apphosting.api.search.AclPb" %>
 <%@ page import="com.google.appengine.labs.repackaged.com.google.common.collect.Multiset" %>
 <%@ page import="major.appengine.connector.AppEngineConnector" %>
+<%@ page import="com.google.appengine.repackaged.com.google.api.services.datastore.DatastoreV1" %>
+<%@ page import="java.awt.im.InputContext" %>
+<%@ page import="java.net.ContentHandler" %>
+<%@ page import="java.util.logging.Handler" %>
+<%@ page import="java.util.logging.LogRecord" %>
 <%--
   Created by Anurag Ambuj.
   Date: 11/24/2015
@@ -75,6 +80,10 @@
     </ul>
   </footer>
 </div>
+<!-- JSP Script for loading data onto the datastore -->
+<%
+
+%>
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>
