@@ -13,6 +13,19 @@
 <br>
 <br>
    <div align="center">
+       <h3 style="color:#39c088">
+           <%
+               Object object=request.getAttribute("status");
+               if(object==null)
+               {
+
+               }
+               else
+               {
+                   out.println(object.toString());
+               }
+           %>
+       </h3>
     <div align="center" style="width: 60%;border: solid;border-radius: 30px;border-width: thick">
         <br>
         <br>
@@ -20,7 +33,13 @@
             <table>
                 <tr>
                     <td>Name of Crop</td>
-                    <td><input type="text" name="cropname"> </td>
+                    <td><select name="cropname">
+                        <option value="Tomato">Tomato</option>
+                        <option value="Chilli">Chilli</option>
+                        <option value="Potato">Potato</option>
+
+                    </select>
+                    </td>
                 </tr>
                 <tr>
                     <td>

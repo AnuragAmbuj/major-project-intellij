@@ -19,6 +19,10 @@ public class ServletLogin extends HttpServlet {
         GQLResultSetFetcher gqlResultSetFetcher=new GQLResultSetFetcher();
         if(gqlResultSetFetcher.validateUserRegistration(email,password)){
             request.setAttribute("email",email);
+            String firstname= gqlResultSetFetcher.getFirstNameFromEmail(email);
+            String secondname=gqlResultSetFetcher.getLastNameFromEmail(email);
+            request.setAttribute("firstname",firstname);
+            request.setAttribute("secondname",secondname);
             RequestDispatcher requestDispatcher=getServletConfig().getServletContext().getRequestDispatcher("/dashboard.jsp");
             requestDispatcher.forward(request,response);
         }

@@ -54,6 +54,10 @@ public class ServletJKReg extends HttpServlet {
             entity.setProperty("location", location);
             DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
             datastoreService.put(entity);
+            statusmessage="Registered Successfully";
+            request.setAttribute("status", statusmessage);
+            RequestDispatcher dispatcher=getServletConfig().getServletContext().getRequestDispatcher("/register.jsp");
+            dispatcher.forward(request,response);
         } else {
             request.setAttribute("status", statusmessage);
             RequestDispatcher dispatcher=getServletConfig().getServletContext().getRequestDispatcher("/register.jsp");

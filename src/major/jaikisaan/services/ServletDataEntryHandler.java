@@ -3,6 +3,7 @@ package major.jaikisaan.services;
 import com.google.appengine.api.datastore.Entity;
 import major.appengine.connector.AppEngineConnector;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -40,6 +41,9 @@ public class ServletDataEntryHandler extends HttpServlet {
         entity.setProperty("pesticidedose2",pesticidedose2);
         entity.setProperty("pesticidedose3",pesticidedose3);
         AppEngineConnector.getDatastoreService().put(entity);
+        RequestDispatcher requestDispatcher=getServletConfig().getServletContext().getRequestDispatcher("/admindataentrypoint.jsp");
+        request.setAttribute("status","Successfully Updated");
+        requestDispatcher.forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
