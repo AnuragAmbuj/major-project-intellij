@@ -11,7 +11,17 @@
 + A **WYSIWYG** Web Editor or IDE for correctly editing and delivering responsive Web Pages
 
 ***
-## **Major Project Team**
+
+
+
+
+## **Major Project Team Information**
+
+###Guided by : 
+
+### **Mrs. Sharmila Harsha, Assistant Professor, Dept. of ISE , SIT, Tumkur, KA, India**
+
+###Team Members:
 
 + **Anurag Ambuj**
 + **Avinash Kumar**
