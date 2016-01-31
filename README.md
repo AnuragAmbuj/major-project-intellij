@@ -27,9 +27,9 @@
 git push -u origin devel
       ```
 + If the execution is faulty and contains some bugs
-```
+      ```
 git push -u origin erroneous
-```
+      ```
       
 + Please, do not push into master or stable branch
 + More detailed explanation will follow later
