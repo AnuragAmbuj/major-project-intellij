@@ -15,8 +15,8 @@
 ***
 
 ##**Current Status**
-###Implementation started (App Engine, Web App and Cron Jobs).
-
+###Implementation started (App Engine Backend, Web Sevices, Task Queues and Cron Jobs).
+###Implementation Started (Web Application)
 
 ***
 ##**How to contribute to the project**
@@ -28,7 +28,7 @@ git push -u origin devel
       ```
 + If the execution is faulty and contains some bugs
 ```
-      git push -u origin erroneous
+git push -u origin erroneous
 ```
       
 + Please, do not push into master or stable branch
