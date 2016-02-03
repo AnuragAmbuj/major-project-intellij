@@ -27,4 +27,7 @@
         <servlet-name>ServletDataEntryHandler</servlet-name>
         <url-pattern>jaikisaan.services.ServletDataEntryHandler</url-pattern>
     </servlet-mapping>
+    <session-config>
+        <session-timeout>100</session-timeout>
+    </session-config>
 </web-app>

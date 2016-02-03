@@ -20,6 +20,7 @@
 <body class="landing">
 <div id="page-wrapper">
 
+
     <!-- Header -->
     <header id="header">
         <h1 id="logo"><a href="index.jsp">JAI KISAAN WEB</a></h1>
@@ -46,8 +47,33 @@
                 </li>
                 <li><a href="GAEElementRefUsage.html">Elements</a></li>
                 -->
-                <li><a href="register.jsp" class="button special">Sign Up</a></li>
-                <li><a href="login.jsp" class="button special">Sign In</a></li>
+                <li><a href="register.jsp" class="button special"><%
+                    HttpSession session1=request.getSession(true);
+                    if(session1.isNew())
+                    {
+                        out.println("Sign Up");
+                    }
+                    else
+                    {
+                        Object firstname=session1.getAttribute("firstname");
+                        System.out.println(firstname);
+                        Object lastname=session1.getAttribute("secondname");
+                        System.out.println(lastname);
+                        if(firstname!=null && lastname!=null)
+                            out.println(firstname.toString()+" "+lastname.toString());
+                    }
+                %></a></li>
+                <li><a href="login.jsp" class="button special"><%
+                        if(session1.isNew())
+                        {
+                            out.println("Sign In");
+                        }
+                        else
+                        {
+                            out.println("Sign Out");
+                        }
+
+                %></a></li>
             </ul>
         </nav>
     </header>
@@ -77,9 +103,7 @@
     </footer>
 </div>
 <!-- JSP Script for loading data onto the datastore -->
-<%
 
-%>
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>

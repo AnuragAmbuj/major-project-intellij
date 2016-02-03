@@ -7,7 +7,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Date;
 
 /**
  * Created by Anurag Ambuj on 1/24/2016.
@@ -23,6 +25,15 @@ public class ServletLogin extends HttpServlet {
             String secondname=gqlResultSetFetcher.getLastNameFromEmail(email);
             request.setAttribute("firstname",firstname);
             request.setAttribute("secondname",secondname);
+            HttpSession httpSession=request.getSession(true);
+            Date createTime = new Date(httpSession.getCreationTime());
+            Date lastAccessTime=new Date(httpSession.getLastAccessedTime());
+
+                httpSession.setAttribute("email",email);
+                httpSession.setAttribute("firstname",firstname);
+                httpSession.setAttribute("secondname",secondname);
+                System.out.println(httpSession.getAttribute("email"));
+
             RequestDispatcher requestDispatcher=getServletConfig().getServletContext().getRequestDispatcher("/dashboard.jsp");
             requestDispatcher.forward(request,response);
         }

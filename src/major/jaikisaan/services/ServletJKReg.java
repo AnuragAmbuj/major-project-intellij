@@ -9,6 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Random;
 
@@ -56,6 +57,7 @@ public class ServletJKReg extends HttpServlet {
             datastoreService.put(entity);
             statusmessage="Registered Successfully";
             request.setAttribute("status", statusmessage);
+            //HttpSession httpSession=request.getSession();
             RequestDispatcher dispatcher=getServletConfig().getServletContext().getRequestDispatcher("/register.jsp");
             dispatcher.forward(request,response);
         } else {
