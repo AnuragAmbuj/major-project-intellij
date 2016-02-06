@@ -47,11 +47,11 @@
                 </li>
                 <li><a href="GAEElementRefUsage.html">Elements</a></li>
                 -->
-                <li><a href="register.jsp" class="button special"><%
+                <li><%
                     HttpSession session1=request.getSession(true);
                     if(session1.isNew())
                     {
-                        out.println("Sign Up");
+                        out.println("<a href=\"register.jsp\" class=\"button special\">"+"Sign Up"+"</a");
                     }
                     else
                     {
@@ -60,20 +60,20 @@
                         Object lastname=session1.getAttribute("secondname");
                         System.out.println(lastname);
                         if(firstname!=null && lastname!=null)
-                            out.println(firstname.toString()+" "+lastname.toString());
+                            out.println("<a href='#' class='button special' >"+firstname.toString()+" "+lastname.toString()+"</a>");
                     }
-                %></a></li>
-                <li><a href="login.jsp" class="button special"><%
+                %></li>
+                <li><%
                         if(session1.isNew())
                         {
-                            out.println("Sign In");
+                            out.println("<a href='login.jsp' class='button special'>Sign In</a>");
                         }
                         else
                         {
-                            out.println("Sign Out");
+                            out.println("<a href='login.jsp' class='button special'>Sign Out</a>");
                         }
 
-                %></a></li>
+                %></li>
             </ul>
         </nav>
     </header>
