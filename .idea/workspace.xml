@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b939496e-a1b0-4663-b482-5b64c98e0715" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletLogin.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="GAEPractise2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -929,7 +926,7 @@
       <workItem from="1454492221339" duration="2304000" />
       <workItem from="1454543159345" duration="1489000" />
       <workItem from="1454556241450" duration="1541000" />
-      <workItem from="1454725229662" duration="1007000" />
+      <workItem from="1454725229662" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="Changed register.jsp and updated it upload data into the datastore">
       <created>1453635992053</created>
@@ -973,11 +970,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454495134598</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated README">
+      <created>1454726275576</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1454726275576</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101259000" />
+    <option name="totallyTimeSpent" value="101298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1067,7 +1070,8 @@
     <MESSAGE value="added personalised notification screen and made necessary changes in admindataentrypoint.jsp" />
     <MESSAGE value="Changes made in README.md" />
     <MESSAGE value="Added session tracking and timeouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added session tracking and timeouts" />
+    <MESSAGE value="Updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
