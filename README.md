@@ -15,7 +15,7 @@
 ***
 
 ##**Current Status**
-###Implementating (Cron Jobs, Task Queues, Sessions, QA Forum for Cultivators/Experts
+###Implementating (Cron Jobs, Task Queues, Sessions, QA Forum for Cultivators/Experts)
 
 
 ***

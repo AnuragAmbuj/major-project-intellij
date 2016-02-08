@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.53562653">
-              <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+              <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -881,7 +881,7 @@
       <workItem from="1454556241450" duration="1541000" />
       <workItem from="1454725229662" duration="1510000" />
       <workItem from="1454862572519" duration="4565000" />
-      <workItem from="1454909265815" duration="2570000" />
+      <workItem from="1454909265815" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="Changed register.jsp and updated it upload data into the datastore">
       <created>1453635992053</created>
@@ -943,11 +943,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454913575976</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Readme">
+      <created>1454913820903</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1454913820903</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108897000" />
+    <option name="totallyTimeSpent" value="108996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,7 +1045,8 @@
     <MESSAGE value="Added session tracking and timeouts" />
     <MESSAGE value="Updated README" />
     <MESSAGE value="cron.xml and related Java Classes TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="cron.xml and related Java Classes TODO" />
+    <MESSAGE value="Updated Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1425,7 +1432,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53562653">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
           <folding />
         </state>
       </provider>
