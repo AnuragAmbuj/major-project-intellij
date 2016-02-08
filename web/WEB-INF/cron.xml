@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<cronentries>
+    <cron>
+        <url>/recache</url>
+        <description>Repopulates the cache</description>
+        <schedule>every 2 minutes</schedule>
+        <target>version-1</target>
+    </cron>
+</cronentries>

@@ -38,6 +38,11 @@ public class AppEngineConnector {
         //TODO
         return true;
     }
+    public String getConnectionString()
+    {
+        //TODO
+        return null;
+    }
 
 
 }
