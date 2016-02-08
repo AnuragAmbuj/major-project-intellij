@@ -15,7 +15,7 @@
 ***
 
 ##**Current Status**
-###Implementation started (App Engine, Web App and Cron Jobs).
+###Implementating (Cron Jobs, Task Queues, Sessions, QA Forum for Cultivators/Experts
 
 
 ***
