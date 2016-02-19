@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by Anurag Ambuj on 1/24/2016.
  */
-public class ConversationModel {
+public class ExpertModel {
 
     private String expertName;
     private String areaExpertise;
