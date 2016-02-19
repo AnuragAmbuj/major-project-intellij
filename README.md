@@ -5,7 +5,7 @@
 
 ***To compile the complete project you need following tools***
 
-+ IntelliJ IDEA 14 Ultimate Edition for App Engine Applications
++ IntelliJ IDEA 14 Ultimate Edition or Eclipse J2EE with GWT plugin for App Engine Applications
 + App Engine Tools for Java , v1.9.18
 + Google Cloud Tools (Command Line)
 + Android Studio **1.4** and above
