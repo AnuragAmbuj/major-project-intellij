@@ -6,5 +6,5 @@ package major.jaikisaan.datamodel;
 public class QAModel {
     private String problem;
     private String solution;
-
+    private String[] tags;
 }
