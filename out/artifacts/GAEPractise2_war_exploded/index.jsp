@@ -61,16 +61,23 @@
                         System.out.println(lastname);
                         if(firstname!=null && lastname!=null)
                             out.println("<a href='#' class='button special' >"+firstname.toString()+" "+lastname.toString()+"</a>");
+                        else
+                            out.println("<a href=\"register.jsp\" class=\"button special\">"+"Sign Up"+"</a");
                     }
                 %></li>
                 <li><%
-                        if(session1.isNew())
+
+                        if(session1.isNew() && (session1.getAttribute("firstname"))==null)
                         {
                             out.println("<a href='login.jsp' class='button special'>Sign In</a>");
                         }
+                        else if(session1.getAttribute("firstname")!=null && session1.getAttribute("secondname")!=null)
+                        {
+                            out.println("<a href='logout.jsp' class='button special'>Sign Out</a>");
+                        }
                         else
                         {
-                            out.println("<a href='login.jsp' class='button special'>Sign Out</a>");
+                            out.println("<a href='login.jsp' class='button special'>Sign In</a>");
                         }
 
                 %></li>

@@ -63,7 +63,7 @@
                 if (firstname != null && secondname != null)
                     out.println("Hello " + firstname.toString() + " " + secondname.toString());
             %></a></li>
-            <li><a href="login.jsp" class="button special">Logout</a></li>
+            <li><a href="logout.jsp" class="button special">Logout</a></li>
         </ul>
     </nav>
 </header>
