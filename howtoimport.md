@@ -38,9 +38,15 @@ ____
 + Follow the video supplied
 + Now the module can successfully run on Development server
 + Deployment server configurations and other steps can be found on [Google App Engine Website](https://www.google.com/appengine/).
+
+----
+
 ##Find two applications deployed on:
-    + Older version, also deployed on Android with app-id [jaikisaan-mproject](http://jaikisaan-mproject.appspot.com)
-    + Newer version, deployed only on Google Cloud with app-id [kisaanmajor](https://kisaanmajor.appspot.com)
+
++ Older version, also deployed on Android with app-id [jaikisaan-mproject](http://jaikisaan-mproject.appspot.com)
++ Newer version, deployed only on Google Cloud with app-id [kisaanmajor](https://kisaanmajor.appspot.com)
+
+
 -----
 ##Thank You
     
