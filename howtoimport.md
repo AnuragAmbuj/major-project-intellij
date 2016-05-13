@@ -3,10 +3,11 @@ How to Import
 ###***Read this document in a Markdown Reader and not not in plain text editor. Use suitable olugins in popular editors such as Visual Studio Code, Sublime Editor, Textmate, Emacs e.t.c***
 + Clone the project using
 
-'''
+```
     git clone https://github.com/AnuragAmbuj/major-project-intellij.git
+```    
 
-'''
+
 + Now Open IntelliJ IDEA
 + ***File -> Open*** , then locate the root folder for the project and click on Open
 + The project gets imported
@@ -37,7 +38,7 @@ ____
 + Follow the video supplied
 + Now the module can successfully run on Development server
 + Deployment server configurations and other steps can be found on [Google App Engine Website](https://www.google.com/appengine/).
-+ Find two applications deployed on
+##Find two applications deployed on:
     + Older version, also deployed on Android with app-id [jaikisaan-mproject](http://jaikisaan-mproject.appspot.com)
     + Newer version, deployed only on Google Cloud with app-id [kisaanmajor](https://kisaanmajor.appspot.com)
 -----
