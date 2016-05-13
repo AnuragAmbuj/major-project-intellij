@@ -5,6 +5,7 @@ import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
+import major.jaikisaan.datamodel.QAModel;
 
 /**
  * Created by Anurag Ambuj on 1/23/2016.
@@ -43,6 +44,81 @@ public class AppEngineConnector {
         //TODO
         return null;
     }
+    public static boolean insertTomatoData(String stage,String pests,String pesticides,String doses)
+    {
+        try {
+            Entity entity = new Entity("Tomato",stage);
+            entity.setProperty("stage", stage);
+            entity.setProperty("pests", pests);
+            entity.setProperty("pesticides", pesticides);
+            entity.setProperty("doses", doses);
+            getDatastoreService().put(entity);
+        }catch (Exception e)
+        {
+            return false;
+        }
+        return true;
+    }
+    public static boolean insertChilliData(String stage,String pests,String pesticides,String doses)
+    {
+        try {
+            Entity entity = new Entity("Chilli",stage);
+            entity.setProperty("stage", stage);
+            entity.setProperty("pests", pests);
+            entity.setProperty("pesticides", pesticides);
+            entity.setProperty("doses", doses);
+            getDatastoreService().put(entity);
+        }catch (Exception e)
+        {
+            return false;
+        }
+        return true;
+    }
+    public static boolean insertPotatoData(String stage,String pests,String pesticides,String doses)
+    {
+        try {
+            Entity entity = new Entity("Potato",stage);
+            entity.setProperty("stage", stage);
+            entity.setProperty("pests", pests);
+            entity.setProperty("pesticides", pesticides);
+            entity.setProperty("doses", doses);
+            getDatastoreService().put(entity);
+        }catch (Exception e)
+        {
+            return false;
+        }
+        return true;
+    }
+    public static boolean insertCropStageData(String crop,String stage,String pests,String pesticides,String doses)
+    {
+        try {
+            Entity entity = new Entity(crop.trim(),stage.trim());
+            entity.setProperty("stage", stage);
+            entity.setProperty("pests", pests);
+            entity.setProperty("pesticides", pesticides);
+            entity.setProperty("doses", doses);
+            getDatastoreService().put(entity);
+        }catch (Exception e)
+        {
+            return false;
+        }
+        return true;
+    }
+    public static void insertQueryData(String name, String email, String crop, String stage, String slist, String query, String answer)
+    {
+        Entity entity = new Entity("Queries",email);
+        entity.setProperty("name",name);
+        entity.setProperty("email",email);
+        entity.setProperty("crop",crop);
+        entity.setProperty("state",slist);
+        entity.setProperty("query",query);
+        entity.setProperty("answer",answer);
+        entity.setProperty("stage",stage);
+        getDatastoreService().put(entity);
+    }
+
+
+
 
 
 }

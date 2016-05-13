@@ -23,7 +23,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1 id="logo"><a href="index.jsp">JAI KISAAN WEB</a></h1>
+        <h3 id="logo" STYLE="padding-top: 8px;padding-left: 5px"><a href="../index.jsp">JAI KISAAN WEB</a></h3>
         <nav id="nav">
             <ul>
                 <li><a href="index.jsp">Home</a></li>
@@ -48,39 +48,32 @@
                 <li><a href="GAEElementRefUsage.html">Elements</a></li>
                 -->
                 <li><%
-                    HttpSession session1=request.getSession(true);
-                    if(session1.isNew())
-                    {
-                        out.println("<a href=\"register.jsp\" class=\"button special\">"+"Sign Up"+"</a");
-                    }
-                    else
-                    {
-                        Object firstname=session1.getAttribute("firstname");
+                    HttpSession session1 = request.getSession(true);
+                    if (session1.isNew()) {
+                        out.println("<a href=\"register.jsp\" class=\"button special\">" + "Sign Up" + "</a");
+                    } else {
+                        Object firstname = session1.getAttribute("firstname");
                         System.out.println(firstname);
-                        Object lastname=session1.getAttribute("secondname");
+                        Object lastname = session1.getAttribute("secondname");
                         System.out.println(lastname);
-                        if(firstname!=null && lastname!=null)
-                            out.println("<a href='#' class='button special' >"+firstname.toString()+" "+lastname.toString()+"</a>");
+                        if (firstname != null && lastname != null)
+                            out.println("<a href='#' class='button special' >" + firstname.toString() + " " + lastname.toString() + "</a>");
                         else
-                            out.println("<a href=\"register.jsp\" class=\"button special\">"+"Sign Up"+"</a");
+                            out.println("<a href=\"register.jsp\" class=\"button special\">" + "Sign Up" + "</a");
                     }
                 %></li>
                 <li><%
 
-                        if(session1.isNew() && (session1.getAttribute("firstname"))==null)
-                        {
-                            out.println("<a href='login.jsp' class='button special'>Sign In</a>");
-                        }
-                        else if(session1.getAttribute("firstname")!=null && session1.getAttribute("secondname")!=null)
-                        {
-                            out.println("<a href='logout.jsp' class='button special'>Sign Out</a>");
-                        }
-                        else
-                        {
-                            out.println("<a href='login.jsp' class='button special'>Sign In</a>");
-                        }
+                    if (session1.isNew() && (session1.getAttribute("firstname")) == null) {
+                        out.println("<a href='login.jsp' class='button special'>Sign In</a>");
+                    } else if (session1.getAttribute("firstname") != null && session1.getAttribute("secondname") != null) {
+                        out.println("<a href='logout.jsp' class='button special'>Sign Out</a>");
+                    } else {
+                        out.println("<a href='login.jsp' class='button special'>Sign In</a>");
+                    }
 
                 %></li>
+                <li><a href='experts-page/' class="button special">Experts</a></li>
             </ul>
         </nav>
     </header>
@@ -88,12 +81,14 @@
     <!-- Banner -->
     <section id="banner">
         <div class="content">
-            <header>
-                <h2>JAI KISAAN</h2>
-
-                <p>ONLINE PEST CONTROL NOTIFICATION PORTAL</p>
-            </header>
             <span class="image"><img src="images/jaikisaan02.png" alt=""/></span>
+            &nbsp;&nbsp;
+            <header>
+                <h1 align="left">JAI KISAAN</h1>
+
+                <p align="left" style="color: #000000;">ONLINE PEST CONTROL NOTIFICATION PORTAL</p>
+            </header>
+
         </div>
         <a href="#one" class="goto-next scrolly">Next</a>
     </section>
@@ -101,7 +96,8 @@
         <ul class="icons">
             <li><a href="https://github.com/AnuragAmbuj/major-project" class="icon alt fa-github"><span class="label">GitHub</span></a>
             </li>
-            <li><a href="mailto:anuragambuj@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="mailto:anuragambuj@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a>
+            </li>
         </ul>
         <ul class="copyright">
             <li>&copy; Jai Kisaan Major Project</li>

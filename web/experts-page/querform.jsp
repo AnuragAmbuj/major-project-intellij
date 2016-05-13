@@ -32,34 +32,30 @@
 <h2 align="center">Feedback</h2>
 
 <div align="center">
-    <br><br>
     <p align="center"><%
         Object status = request.getAttribute("status");
-        if(status == null)
-        {
+        if (status == null) {
 
-        }
-        else
-        {
+        } else {
             out.println(status.toString());
         }
     %></p>
     <form id=" " name=" " action="/expertqueryhandler" method="post">
 
         <table>
-            <tr>
+            <tr align="center">
                 <td>
                     Enter Name:<br>
                     <input type="text" name="name" placeholder="Name" required="required"><br>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     Enter email:<br>
                     <input type="text" name="email" placeholder="Enter Email" required="required"><br>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     <select name="cropselector" required="required">
                         <option value="none">Select a crop</option>
@@ -69,7 +65,7 @@
                     </select>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     Select stage of your crop:
                     <select name="stage" required="required">
@@ -80,7 +76,7 @@
                     </select>
                 </td>
             </tr>
-            <tr>
+            <tr align="center">
                 <td>
                     <select name="slist" required="required">
                         <option value="none">------------Select State------------</option>
@@ -122,8 +118,9 @@
                     </select>
                 </td>
             </tr>
-            <tr>
-               <td> <textarea name="query" placeholder="Please enter the complete problem?" rows="6" cols="120"></textarea></td>
+            <tr align="center">
+                <td><textarea name="query" placeholder="Please enter the complete problem?" rows="4"
+                              cols="120"></textarea></td>
             </tr>
         </table>
         <input type="SUBMIT" align="center" value="Send Query"><br>

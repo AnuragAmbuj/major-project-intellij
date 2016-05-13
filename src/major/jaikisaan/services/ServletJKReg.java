@@ -44,7 +44,7 @@ public class ServletJKReg extends HttpServlet {
         if (flag == true) {
             Random random = new Random();
             long genRandomKey = Math.abs(random.nextLong());
-            Entity entity = new Entity("User", genRandomKey);
+            Entity entity = new Entity("User", email);
             entity.setProperty("UserID", genRandomKey);
             entity.setProperty("firstname", firstname);
             entity.setProperty("lastname", lastname);

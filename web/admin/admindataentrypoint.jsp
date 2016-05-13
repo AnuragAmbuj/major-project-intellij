@@ -12,20 +12,17 @@
 <h1 align="center"> Administrators Data Insertion Point </h1>
 <br>
 <br>
-   <div align="center">
-       <h3 style="color:#39c088">
-           <%
-               Object object=request.getAttribute("status");
-               if(object==null)
-               {
+<div align="center">
+    <h3 style="color:#39c088">
+        <%
+            Object object = request.getAttribute("status");
+            if (object == null) {
 
-               }
-               else
-               {
-                   out.println(object.toString());
-               }
-           %>
-       </h3>
+            } else {
+                out.println(object.toString());
+            }
+        %>
+    </h3>
     <div align="center" style="width: 60%;border: solid;border-radius: 30px;border-width: thick">
         <br>
         <br>
@@ -121,6 +118,6 @@
         <br>
     </div>
 
-   </div>
+</div>
 </body>
 </html>

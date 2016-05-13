@@ -9,9 +9,8 @@ import java.util.Map;
 public class ExpertModel {
 
     private String expertName;
-    private String areaExpertise;
-    private int answerCount;
-    private int questionCount;
+    private String answerCount;
+    private String password;
 
     public String getExpertName() {
         return expertName;
@@ -21,27 +20,19 @@ public class ExpertModel {
         this.expertName = expertName;
     }
 
-    public String getAreaExpertise() {
-        return areaExpertise;
-    }
-
-    public void setAreaExpertise(String areaExpertise) {
-        this.areaExpertise = areaExpertise;
-    }
-
-    public int getAnswerCount() {
+    public String getAnswerCount() {
         return answerCount;
     }
 
-    public void setAnswerCount(int answerCount) {
+    public void setAnswerCount(String answerCount) {
         this.answerCount = answerCount;
     }
 
-    public int getQuestionCount() {
-        return questionCount;
+    public String getPassword() {
+        return password;
     }
 
-    public void setQuestionCount(int questionCount) {
-        this.questionCount = questionCount;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -13,7 +13,7 @@ import static java.lang.Thread.sleep;
 /**
  * Created by Avinash on 3/28/2016.
  */
-public class ServletExpertLigin extends HttpServlet {
+public class ServletAdminLogin extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DatastoreAdmin.insertData("Avinash","12345");
         DatastoreAdmin.insertData("Anurag","123456");
@@ -25,17 +25,19 @@ public class ServletExpertLigin extends HttpServlet {
         boolean b= DatastoreAdmin.checkLogin(usernaame,password);
         if(b)
         {
-            status = "Loggin Successfully!";
-
+            request.setAttribute("refer","Hello Expert");
+            RequestDispatcher dispatcher = getServletConfig().getServletContext().getRequestDispatcher("/experts-page/index.jsp");
+            dispatcher.forward(request,response);
 
         }
         else
         {
             status = "Invalid Login Credentials";
+            RequestDispatcher rd= getServletConfig().getServletContext().getRequestDispatcher("/experts-page/expertlogin.jsp");
+            request.setAttribute("status",status);
+            rd.forward(request,response);
         }
-        RequestDispatcher rd= getServletConfig().getServletContext().getRequestDispatcher("/index.jsp");
-        request.setAttribute("status",status);
-        rd.forward(request,response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

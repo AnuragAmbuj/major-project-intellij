@@ -7,18 +7,9 @@
 
 + IntelliJ IDEA 14 Ultimate Edition or Eclipse J2EE with GWT plugin for App Engine Applications
 + App Engine Tools for Java , v1.9.18
-+ Google Cloud Tools (Command Line)
-+ Android Studio **1.4** and above
-+ For Windows Universal Applications **Visual Studio 2015** with **Windows 10 SDK**
++ Google Cloud Tools (Command Line)*
 + A **WYSIWYG** Web Editor or IDE for correctly editing and delivering responsive Web Pages
 
-***
-
-##**Current Status**
-###Implementating (Cron Jobs, Task Queues, Sessions, QA Forum for Cultivators/Experts)
-
-
-***
 ##**How to contribute to the project**
 
 + Push the code to our devel branch only from command line

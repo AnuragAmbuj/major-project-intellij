@@ -1,6 +1,7 @@
 package mpteam.experts;
 
 import com.google.appengine.api.datastore.*;
+import major.appengine.connector.AppEngineConnector;
 
 import javax.servlet.RequestDispatcher;
 
@@ -9,12 +10,12 @@ import javax.servlet.RequestDispatcher;
  */
 public class DatastoreAdmin {
 
-    static DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+    static DatastoreService ds = AppEngineConnector.getDatastoreService();
 
     public static boolean checkLogin(String usernaame, String password) {
 
 
-        Query q = new Query("Users");
+        Query q = new Query("Admins");
         String status1;
         PreparedQuery pq = ds.prepare(q);
                for(Entity all:pq.asIterable())
@@ -29,7 +30,7 @@ public class DatastoreAdmin {
     }
     public static void insertData(String username,String password)
     {
-        Entity entity = new Entity("Users");
+        Entity entity = new Entity("Admins");
         entity.setProperty("username",username);
         entity.setProperty("password",password);
         ds.put(entity);

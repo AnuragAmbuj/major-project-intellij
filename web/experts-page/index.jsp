@@ -18,8 +18,21 @@
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
 </head>
 <body>
+<%
+    String s = "Sorry";
+    Object refer = request.getAttribute("refer");
+    if (refer == null) {
+        response.sendRedirect("expertlogin.jsp");
+    } else {
+        s = refer.toString();
+
+    }
+%>
 <header id="header">
     <h1 id="logo"><a href="../index.jsp">JAI KISAAN WEB</a></h1>
+    <ul align="right">
+        <li><%out.println(s);%></li>
+    </ul>
 </header>
 <br>
 <br>
@@ -28,7 +41,7 @@
 <div class="container">
     <h2 align="center">
         Answer all the queries that have gone unanswered!
-        <a href="queslist.jsp" class="button">Go to Question List</a>
+        <a href="experts-page/queslist.jsp" class="button">Go to Question List</a>
     </h2>
 
     <h2>

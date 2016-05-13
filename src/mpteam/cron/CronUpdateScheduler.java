@@ -9,4 +9,8 @@ public class CronUpdateScheduler {
     {
 
     }
+    public void sendPushGoogleCloudMessage(String message)
+    {
+
+    }
 }

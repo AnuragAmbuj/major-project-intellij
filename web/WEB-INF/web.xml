@@ -3,6 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <listener>
+        <listener-class>major.listeners.JKSessionListener</listener-class>
+    </listener>
+
+    <session-config>
+        <session-timeout>120</session-timeout>
+        <tracking-mode>URL</tracking-mode>
+    </session-config>
     <servlet>
         <servlet-name>ServletJKReg</servlet-name>
         <servlet-class>major.jaikisaan.services.ServletJKReg</servlet-class>
@@ -15,19 +23,81 @@
         <servlet-name>ServletDataEntryHandler</servlet-name>
         <servlet-class>major.jaikisaan.services.ServletDataEntryHandler</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletStageDataHandler</servlet-name>
+        <servlet-class>major.jaikisaan.services.ServletStageDataHandler</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletExpertQueryHandler</servlet-name>
+        <servlet-class>mpteam.experts.ServletExpertQueryHandler</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletQueryAnswer</servlet-name>
+        <servlet-class>mpteam.experts.ServletQueryAnswer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletQueryAnswerSubmitter</servlet-name>
+        <servlet-class>mpteam.experts.ServletQueryAnswerSubmitter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletSearchResult</servlet-name>
+        <servlet-class>major.jaikisaan.services.ServletSearchResult</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletAdminLogin</servlet-name>
+        <servlet-class>mpteam.experts.ServletAdminLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletMultipleAnswerHandler</servlet-name>
+        <servlet-class>mpteam.experts.ServletMultipleAnswerHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletMultipleAnswerHandler</servlet-name>
+        <url-pattern>/multianswerhandle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletAdminLogin</servlet-name>
+        <url-pattern>/servlogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletSearchResult</servlet-name>
+        <url-pattern>/searchres</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletQueryAnswerSubmitter</servlet-name>
+        <url-pattern>/qasubmit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletQueryAnswer</servlet-name>
+        <url-pattern>/queryanswerswerv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletExpertQueryHandler</servlet-name>
+        <url-pattern>/expertqueryhandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletStageDataHandler</servlet-name>
+        <url-pattern>/servregdatahandler</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletJKReg</servlet-name>
-        <url-pattern>jaikisaan.services.ServletJKReg</url-pattern>
+        <url-pattern>/ServletJKReg</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletLogin</servlet-name>
-        <url-pattern>jaikisaan.services.ServletLogin</url-pattern>
+        <url-pattern>/ServletLogin</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletDataEntryHandler</servlet-name>
-        <url-pattern>jaikisaan.services.ServletDataEntryHandler</url-pattern>
+        <url-pattern>/ServletDataEntryHandler</url-pattern>
     </servlet-mapping>
-    <session-config>
-        <session-timeout>100</session-timeout>
-    </session-config>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>all</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
 </web-app>
