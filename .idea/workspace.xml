@@ -25,139 +25,8 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003380a6-d99f-4e7c-b684-4f17f6dcd279" name="Default" comment="ReadMe update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/howtoimport.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/AppEngine_API.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-generated/local_db.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-api-1.0-sdk-1.9.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-api-labs-1.9.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-jsr107cache-1.9.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/2 Chilli pod  borer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/Adult.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/Aphids.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/Flowering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/Fruit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/Germination.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/beet armyworm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/jassid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/mites.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/thrips.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/white aphids.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/white mite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/chilli/yellow mite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Adult.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Buck eye rot .jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Flowering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Fruit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Germination.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/Thrips.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/aphids1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/cutworm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/gram pod borer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/leafhopper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/photothumb.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/powdery_mildew.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/thrips1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/cropimages/tomato/tobaco caterpillar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pestimages/Thrips.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/classes/major/appengine/connector/AppEngineConnector.class" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/classes/major/appengine/connector/AppEngineConnector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/classes/major/jaikisaan/services/ServletJKReg.class" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/classes/major/jaikisaan/services/ServletJKReg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-endpoints-deps.jar" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-endpoints-deps.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-endpoints.jar" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/lib/appengine-endpoints.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GAEPractise2/major/appengine/connector/AppEngineConnector.class" afterPath="$PROJECT_DIR$/out/production/GAEPractise2/major/appengine/connector/AppEngineConnector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GAEPractise2/major/jaikisaan/services/ServletJKReg.class" afterPath="$PROJECT_DIR$/out/production/GAEPractise2/major/jaikisaan/services/ServletJKReg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/GAEPractise2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GAEPractise2_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="003380a6-d99f-4e7c-b684-4f17f6dcd279" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GAEPractise2.eml" afterPath="$PROJECT_DIR$/GAEPractise2.eml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GAEPractise2.iml" afterPath="$PROJECT_DIR$/GAEPractise2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/GAEElementRefUsage.html" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/GAEElementRefUsage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/GAERefUsageIndex.html" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/GAERefUsageIndex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/appengine-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/assets/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/left-sidebar.html" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/left-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/no-sidebar.html" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/no-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/right-sidebar.html" afterPath="$PROJECT_DIR$/out/artifacts/GAEPractise2_war_exploded/right-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/appengine/connector/AppEngineConnector.java" afterPath="$PROJECT_DIR$/src/major/appengine/connector/AppEngineConnector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/appengine/connector/GQLResultSetFetcher.java" afterPath="$PROJECT_DIR$/src/major/appengine/connector/GQLResultSetFetcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/datamodel/ExpertModel.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/datamodel/ExpertModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/datamodel/QAModel.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/datamodel/QAModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletDataEntryHandler.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletDataEntryHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletJKReg.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletJKReg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletLogin.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletSearchResult.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletSearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletStageDataHandler.java" afterPath="$PROJECT_DIR$/src/major/jaikisaan/services/ServletStageDataHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/major/listeners/JKSessionListener.java" afterPath="$PROJECT_DIR$/src/major/listeners/JKSessionListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/cron/CronUpdateScheduler.java" afterPath="$PROJECT_DIR$/src/mpteam/cron/CronUpdateScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/cron/PushNotificationGenerator.java" afterPath="$PROJECT_DIR$/src/mpteam/cron/PushNotificationGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/DatastoreAdmin.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/DatastoreAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/ServletAdminLogin.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/ServletAdminLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/ServletExpertQueryHandler.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/ServletExpertQueryHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/ServletMultipleAnswerHandler.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/ServletMultipleAnswerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/ServletQueryAnswer.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/ServletQueryAnswer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/experts/ServletQueryAnswerSubmitter.java" afterPath="$PROJECT_DIR$/src/mpteam/experts/ServletQueryAnswerSubmitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/jobs/SOAPDataConversionModel.java" afterPath="$PROJECT_DIR$/src/mpteam/jobs/SOAPDataConversionModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/jobs/WebServiceGenerator.java" afterPath="$PROJECT_DIR$/src/mpteam/jobs/WebServiceGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/AHrefLink.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/AHrefLink.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/CropStageChangeEvent.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/CropStageChangeEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/CropStageChangeListener.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/CropStageChangeListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/DurationCalculator.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/DurationCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/LinkGenerator.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/LinkGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mpteam/tasks/StageChangeEventSource.java" afterPath="$PROJECT_DIR$/src/mpteam/tasks/StageChangeEventSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/GAEElementRefUsage.html" afterPath="$PROJECT_DIR$/web/GAEElementRefUsage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/GAERefUsageIndex.html" afterPath="$PROJECT_DIR$/web/GAERefUsageIndex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/cron.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/cron.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/admindataentrypoint.jsp" afterPath="$PROJECT_DIR$/web/admin/admindataentrypoint.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/adminstagedataentry.jsp" afterPath="$PROJECT_DIR$/web/admin/adminstagedataentry.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/index.jsp" afterPath="$PROJECT_DIR$/web/admin/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/answeredqueries.jsp" afterPath="$PROJECT_DIR$/web/answeredqueries.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/controls.css" afterPath="$PROJECT_DIR$/web/assets/css/controls.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/controls.js" afterPath="$PROJECT_DIR$/web/assets/js/controls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/jkajaxasync.js" afterPath="$PROJECT_DIR$/web/assets/js/jkajaxasync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/modaldialog.js" afterPath="$PROJECT_DIR$/web/assets/js/modaldialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Chilli.htm" afterPath="$PROJECT_DIR$/web/cropimages/Chilli.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Chilli_files/colorschememapping.xml" afterPath="$PROJECT_DIR$/web/cropimages/Chilli_files/colorschememapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Chilli_files/filelist.xml" afterPath="$PROJECT_DIR$/web/cropimages/Chilli_files/filelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Tomato.htm" afterPath="$PROJECT_DIR$/web/cropimages/Tomato.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Tomato_files/colorschememapping.xml" afterPath="$PROJECT_DIR$/web/cropimages/Tomato_files/colorschememapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cropimages/Tomato_files/filelist.xml" afterPath="$PROJECT_DIR$/web/cropimages/Tomato_files/filelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dashboard.jsp" afterPath="$PROJECT_DIR$/web/dashboard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/experts-page/answerform.jsp" afterPath="$PROJECT_DIR$/web/experts-page/answerform.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/experts-page/expertlogin.jsp" afterPath="$PROJECT_DIR$/web/experts-page/expertlogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/experts-page/index.jsp" afterPath="$PROJECT_DIR$/web/experts-page/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/experts-page/querform.jsp" afterPath="$PROJECT_DIR$/web/experts-page/querform.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/experts-page/queslist.jsp" afterPath="$PROJECT_DIR$/web/experts-page/queslist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRChili_files/colorschememapping.xml" afterPath="$PROJECT_DIR$/web/infopages/NRChili_files/colorschememapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRChili_files/filelist.xml" afterPath="$PROJECT_DIR$/web/infopages/NRChili_files/filelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRChilli.htm" afterPath="$PROJECT_DIR$/web/infopages/NRChilli.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRTomato.htm" afterPath="$PROJECT_DIR$/web/infopages/NRTomato.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRTomato_files/colorschememapping.xml" afterPath="$PROJECT_DIR$/web/infopages/NRTomato_files/colorschememapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/infopages/NRTomato_files/filelist.xml" afterPath="$PROJECT_DIR$/web/infopages/NRTomato_files/filelist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/left-sidebar.html" afterPath="$PROJECT_DIR$/web/left-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/logout.jsp" afterPath="$PROJECT_DIR$/web/logout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/no-sidebar.html" afterPath="$PROJECT_DIR$/web/no-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/right-sidebar.html" afterPath="$PROJECT_DIR$/web/right-sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/searchresult.jsp" afterPath="$PROJECT_DIR$/web/searchresult.jsp" />
     </list>
     <ignored path="GAEPractise2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1099,12 +968,20 @@
       <workItem from="1463074347634" duration="231000" />
       <workItem from="1463074584596" duration="328000" />
       <workItem from="1463075100763" duration="7320000" />
-      <workItem from="1463103605816" duration="1858000" />
+      <workItem from="1463103605816" duration="2021000" />
     </task>
+    <task id="LOCAL-00001" summary=" Readme updated and how to execute added">
+      <created>1463105551285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463105551285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9737000" />
+    <option name="totallyTimeSpent" value="9900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -1118,11 +995,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1154,7 +1031,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReadMe update" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe update" />
+    <MESSAGE value=" Readme updated and how to execute added" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Readme updated and how to execute added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1254,6 +1132,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,6 +1150,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,6 +1161,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,6 +1246,7 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-125">
             <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
