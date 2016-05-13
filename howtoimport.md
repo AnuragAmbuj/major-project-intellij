@@ -1,6 +1,6 @@
 How to Import
 ===========
-###***Read this document in a Markdown Reader and not not in plain text editor. Use suitable olugins in popular editors such as Visual Studio Code, Sublime Editor, Textmate, Emacs e.t.c***
+###***Read this document in a Markdown Reader and not not in plain text editor. Use suitable plugins in popular editors such as Visual Studio Code, Sublime Editor, Textmate, Emacs e.t.c***
 + Clone the project using
 
 ```
